@@ -4,8 +4,8 @@ Project to classify NBA shot data - whether it was a made shot or missed shot. W
 
 Repository structure:
  - data_prep folder contains jupyter notebook data_prep.ipynb which was used to create dataset, as well as elementary datasets which were combined into final
- - model.ipynb is the notebook containing classification implementation
- - data folder contains final.csv dataset which was used
+ - report.ipynb is the notebook containing data exploration and modeling
+ - final_data_spurs.csv is final dataset
 
 ## Data preparation
 
