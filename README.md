@@ -46,3 +46,7 @@ The initial idea was to use league-wide play-by-play data, so that we would have
 
 
 ## Model training
+- Features:
+    - Numercial: 'SHOT_VALUE', 'SCORE_DIFF', 'CLUTCH_FLAG', 'SHOT_DISTANCE', 'LOC_X', 'LOC_Y', 'ZONE_FG_PCT', 'FG_PCT', 'EFG_PCT', 'PLAYER_SHOT_PCT'
+    - Categorical: 'ACTION_TYPE'
+- Target variable: 'SHOT_MADE_FLAG'
