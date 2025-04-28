@@ -19,7 +19,7 @@ The initial idea was to use league-wide play-by-play data, so that we would have
 - SHOT_VALUE - whether shot was a 2-point or 3-point attempt, free throws are excluded
 - 'ACTION_ID'
 - SCORE_DIFF - difference in score from shooting player team perspective before shot is taken, e.g. -2 = shooting player team was losing by two points at time of shot being taken
-- CLUTCH_FLAG - flag whether shot was taken in "clutch time", defined by NBA as less then 5 minutes remaining in fourth period or OT and 
+- CLUTCH_FLAG - flag whether shot was taken in "clutch time", defined by NBA as less then 5 minutes remaining in fourth period or OT and score difference within 5 points
 - GAME_ID
 - PLAYER_ID
 - PLAYER_NAME
